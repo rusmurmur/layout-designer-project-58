@@ -1,0 +1,16 @@
+{
+  "name": "cognitive-distortions",
+  "version": "1.0.0",
+  "description": "cognitive distortions project by hexlet",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rusmurmur/layout-designer-project-58.git"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint-config-standard": "^34.0.0"
+  },
+  "author": "Ruslan Mursalov",
+  "license": "ISC"
+}
