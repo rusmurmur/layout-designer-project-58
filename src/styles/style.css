@@ -250,3 +250,97 @@ p {
   line-height: var(--titles-line-height);
   text-transform: uppercase;
 }
+
+.form {
+  margin: 0 auto;
+  height: 190px;
+  background-color: var(--primary-dark);
+}
+
+.more-info {
+  margin-top: 55px;
+  margin-left: 55px;
+}
+
+.email {
+  margin-top: 38px;
+  margin-right: 55px;
+}
+
+.input-form {
+  padding-top: 9px;
+  position: relative;
+}
+
+.input-form input {
+  box-sizing: border-box;
+  height: 50px;
+  width: 423px;
+  padding: 15px;
+  outline: none;
+}
+
+.email-btn {
+  position: absolute;
+  top: 9px;
+  right: 50px;
+  vertical-align: middle;
+  padding: 0;
+  height: 50px;
+  width: 70px;
+  border: none;
+  background-color: var(--primary);
+}
+
+.input-form button::before {
+  position: absolute;
+}
+
+.send {
+  position: relative;
+}
+
+.send-img {
+  position: absolute;
+  right: 75px;
+  bottom: 13px;
+}
+
+.label {
+  font-size: 18px;
+  font-family: var(--text-font-family);
+  line-height: 1.6em;
+}
+
+.input::placeholder {
+  color: #757575;
+  font-size: 13.1px;
+  font-family: var(--text-font-family);
+  opacity: 0.2;
+}
+
+.consent {
+  font-size: 12px;
+  line-height: 1.6em;
+  font-family: var(--text-font-family);
+}
+
+.copywriting {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.copywriting p {
+  font-size: 14px;
+  font-family: var(--text-font-family);
+  line-height: 1.6em;
+  margin-bottom: 16px;
+}
+
+.link {
+  color: var(--blue);
+}
+
+.copywriting .hexlet {
+  margin-bottom: 0;
+}
