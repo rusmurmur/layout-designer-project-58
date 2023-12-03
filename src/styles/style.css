@@ -50,12 +50,12 @@ h3 {
   font-size: 34px;
 }
 
-.dark-text {
-  color: var(--dark);
-}
-
 p {
   margin: 0;
+}
+
+.dark-text {
+  color: var(--dark);
 }
 
 .text-primary {
@@ -66,15 +66,35 @@ p {
   color: var(--white);
 }
 
+.text-brown {
+  color: var(--brown);
+}
+
+.text-transparent-dark {
+  color: var(--transparent-dark);
+}
+
+.text-transparent-white {
+  color: var(--transparent-white);
+}
+
 .header {
   overflow: hidden;
+  padding-bottom: 30px;
 }
 
 .bg-white {
   background-color: var(--white);
 }
 
+.bg-brown {
+  position: relative;
+  background-color: var(--brown);
+  z-index: -1;
+}
+
 .background {
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -117,7 +137,6 @@ p {
   font-size: var(--text-size);
   line-height: var(--text-line-height);
   font-family: var(--text-font-family);
-  color: var(--dark);
 }
 
 .header-btn {
@@ -196,12 +215,38 @@ p {
   color: var(--dark);
 }
 
-.bb {
-  box-sizing: border-box;
-}
-
 .nav-link {
   display: flex;
   flex: 1;
   text-decoration: none;
+}
+
+.cognitive-distortions {
+  font-size: 24px;
+  line-height: var(--titles-line-height);
+  font-family: var(--titles-font-family);
+}
+
+.cognitive-distortions-title {
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 34px;
+  line-height: var(--titles-line-height);
+  font-family: var(--titles-font-family);
+}
+
+.manifestations {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 0 5px 10px;
+}
+
+.manifestations h3 {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--text-font-family);
+  line-height: var(--titles-line-height);
+  text-transform: uppercase;
 }
