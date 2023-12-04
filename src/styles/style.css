@@ -184,7 +184,8 @@ p {
 }
 
 .video-title {
-  padding-bottom: 30px;
+  padding-top: 2px;
+  padding-bottom: 32px;
   margin-top: -10px;
 }
 
