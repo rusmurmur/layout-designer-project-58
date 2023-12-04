@@ -87,7 +87,6 @@ body {
 .header {
   overflow: hidden;
   padding-bottom: 0;
-  margin-bottom: -10px;
 }
 
 .premature-optimization {
@@ -140,8 +139,10 @@ body {
 }
 
 .header-img {
+  display: block;
+  max-width: 1440px;
   position: absolute;
-  overflow: hidden;
+  overflow-x: hidden;
   top: 55px;
   right: -270px;
   height: 525px;
@@ -201,12 +202,12 @@ body {
 }
 
 .video {
-  width: 919px;
-  height: 569px;
+  /* width: 919px;
+  height: 569px; */
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: absolute;
   top: 0px;
-  left: 100px;
+  left: 105px;
 }
 
 .navigation {
