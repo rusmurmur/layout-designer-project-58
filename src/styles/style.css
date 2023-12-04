@@ -185,12 +185,13 @@ p {
 
 .video-title {
   padding-top: 10px;
-  padding-bottom: 29px;
+  padding-bottom: 28px;
   margin-top: -10px;
 }
 
 .videos .text {
   margin-bottom: 30px;
+  padding-right: 1px;
 }
 
 .video-wrapper {
