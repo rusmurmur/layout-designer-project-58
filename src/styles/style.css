@@ -82,7 +82,7 @@ p {
 
 .header {
   overflow: hidden;
-  padding-bottom: 0;
+  margin-bottom: -5px;
 }
 
 .premature-optimization {
@@ -199,12 +199,12 @@ p {
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: absolute;
-  top: 20px;
-  left: 100px;
+  top: 0;
+  left: 98px;
 }
 
 .navigation {
-  margin-top: 380px;
+  margin-top: 379px;
   padding-top: 100px;
   background-color: var(--primary-dark);
 }
