@@ -84,6 +84,14 @@ p {
   padding-bottom: 28px;
 }
 
+.premature-optimization {
+  padding-bottom: 28px;
+}
+
+.errors-planning {
+  padding-bottom: 28px;
+}
+
 .bg-white {
   background-color: var(--white);
 }
