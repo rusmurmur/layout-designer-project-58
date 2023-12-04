@@ -56,6 +56,7 @@ p {
 }
 
 body {
+  max-width: 1440px;
   overflow-x: hidden;
 }
 
@@ -85,7 +86,7 @@ body {
 
 .header {
   overflow: hidden;
-  padding-bottom: 28px;
+  padding-bottom: 0;
 }
 
 .premature-optimization {
