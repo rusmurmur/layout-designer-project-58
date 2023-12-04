@@ -131,7 +131,7 @@ p {
 }
 
 .header-title {
-  padding-bottom: 200px;
+  padding-bottom: 201px;
 }
 
 .header-img {
@@ -190,8 +190,8 @@ p {
 }
 
 .videos .text {
-  margin-bottom: 25px;
-  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .video-wrapper {
