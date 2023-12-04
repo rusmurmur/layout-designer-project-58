@@ -109,10 +109,6 @@ p {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
-/* .midl {
-  vertical-align: middle;
-} */
-
 .background {
   position: relative;
   background-repeat: no-repeat;
@@ -158,6 +154,10 @@ p {
   font-size: var(--text-size);
   line-height: var(--text-line-height);
   font-family: var(--text-font-family);
+}
+
+.thb {
+  margin-bottom: 20px;
 }
 
 .header-btn {
