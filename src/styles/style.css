@@ -82,7 +82,7 @@ p {
 
 .header {
   overflow: hidden;
-  margin-bottom: -9px;
+  margin-bottom: 0px;
 }
 
 .premature-optimization {
