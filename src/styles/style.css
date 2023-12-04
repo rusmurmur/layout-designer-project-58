@@ -19,6 +19,7 @@
 
 body {
   margin: 0;
+  /* box-sizing: border-box; */
 }
 
 .container {
@@ -53,11 +54,6 @@ h3 {
 
 p {
   margin: 0;
-}
-
-body {
-  max-width: 1440px;
-  overflow-x: hidden;
 }
 
 .dark-text {
@@ -113,9 +109,9 @@ body {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
-.midl {
+/* .midl {
   vertical-align: middle;
-}
+} */
 
 .background {
   position: relative;
@@ -203,8 +199,8 @@ body {
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: absolute;
-  top: 5px;
-  left: 99px;
+  top: 20px;
+  left: 100px;
 }
 
 .navigation {
