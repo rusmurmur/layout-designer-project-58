@@ -44,6 +44,7 @@ h1 {
 
 h2 {
   font-size: 60px;
+  color: var(--primary);
 }
 
 h3 {
@@ -94,11 +95,16 @@ p {
 .bg-brown {
   position: relative;
   background-color: var(--brown);
-  z-index: -2;
+  padding-bottom: 28px;
+  z-index: 2;
 }
 
 .shadow {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.midl {
+  vertical-align: middle;
 }
 
 .background {
@@ -119,7 +125,7 @@ p {
 }
 
 .header-title {
-  padding-bottom: 190px;
+  padding-bottom: 200px;
 }
 
 .header-img {
@@ -257,6 +263,10 @@ p {
   font-family: var(--text-font-family);
   line-height: var(--titles-line-height);
   text-transform: uppercase;
+}
+
+.errors-planning {
+  padding-bottom: 28px;
 }
 
 .form {
