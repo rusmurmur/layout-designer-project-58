@@ -86,8 +86,7 @@ p {
 }
 
 .premature-optimization {
-  margin-bottom: -30px;
-  padding-bottom: 28px;
+  /* padding-bottom: 28px; */
 }
 
 .errors-planning {
