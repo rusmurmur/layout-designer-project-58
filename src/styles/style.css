@@ -93,10 +93,7 @@ p {
 }
 
 .bg-brown {
-  position: relative;
   background-color: var(--brown);
-  padding-bottom: 28px;
-  z-index: 2;
 }
 
 .shadow {
@@ -111,6 +108,7 @@ p {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 
 .background::before {
@@ -119,7 +117,6 @@ p {
   background-image: url("../images/background.png");
   width: 100%;
   height: 100%;
-  background-color: var(--transparent-white);
   opacity: 0.1;
   z-index: -1;
 }
@@ -263,10 +260,6 @@ p {
   font-family: var(--text-font-family);
   line-height: var(--titles-line-height);
   text-transform: uppercase;
-}
-
-.errors-planning {
-  padding-bottom: 28px;
 }
 
 .form {
