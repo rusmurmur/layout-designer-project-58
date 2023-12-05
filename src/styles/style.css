@@ -193,7 +193,7 @@ p {
 .videos .text {
   margin-bottom: 30px;
 
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -204,6 +204,8 @@ p {
 
 .video-wrapper {
   position: relative;
+  /* width: 919px;
+  height: 569px; */
 }
 
 .video {
