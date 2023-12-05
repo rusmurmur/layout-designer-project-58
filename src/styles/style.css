@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "OpenSans";
+  font-family: OpenSans;
   src: url("../fonts/OpenSans-Regular.ttf");
 }
 
@@ -38,7 +38,7 @@ h3 {
   margin: 0;
   font-weight: 400;
   line-height: 120%;
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
 }
 
 h1 {
@@ -59,7 +59,7 @@ p {
   font-weight: 400;
   line-height: 160%;
   margin: 0;
-  font-family: "OpenSans", sans-serif;
+  font-family: OpenSans, sans-serif;
 }
 
 .dark-text {
@@ -88,7 +88,6 @@ p {
 
 .header {
   overflow: hidden;
-  margin-bottom: 0px;
 }
 
 .h-header {
@@ -118,7 +117,7 @@ p {
 }
 
 .shadow {
-  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0 16px 32px rgba(var(--black) / 15%));
 }
 
 .background {
@@ -169,12 +168,10 @@ p {
   margin-top: 40px;
   width: max-content;
   padding: 12px 24px;
-  font-family: "OpenSans", serif;
+  font-family: OpenSans, serif;
   font-weight: 800;
-
   color: var(--white);
   background-color: var(--primary);
-
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -187,7 +184,6 @@ p {
 .video-title {
   position: relative;
   top: 8px;
-
   padding-top: 10px;
   padding-bottom: 28px;
   margin-top: -10px;
@@ -197,7 +193,6 @@ p {
   position: relative;
   top: 3px;
   left: -1px;
-
   margin-bottom: 30px;
   padding-left: 1px;
   color: #212529;
@@ -242,7 +237,7 @@ p {
 .nav-num {
   padding-bottom: 40px;
   font-size: 64px;
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   line-height: 1;
   color: var(--dark);
 }
@@ -255,7 +250,7 @@ p {
 
 .cognitive-distortions {
   font-size: 24px;
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   line-height: 120%;
 }
 
@@ -266,7 +261,7 @@ p {
 .description {
   font-size: 34px;
   line-height: 120%;
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
 }
 
 .manifestations {
@@ -279,9 +274,7 @@ p {
   font-size: 14px;
   font-weight: 700;
   line-height: 120%;
-  font-weight: 700;
-
-  font-family: "OpenSans";
+  font-family: OpenSans, sans-serif;
   text-transform: uppercase;
 }
 
@@ -342,21 +335,21 @@ p {
 
 .label {
   font-size: 18px;
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   line-height: 1.6em;
 }
 
 .input::placeholder {
   color: #757575;
   font-size: 13.1px;
-  font-family: "OpenSans";
+  font-family: OpenSans, sans-serif;
   opacity: 0.2;
 }
 
 .consent {
   font-size: 12px;
   line-height: 1.6em;
-  font-family: "OpenSans";
+  font-family: OpenSans, sans-serif;
 }
 
 .copywriting {
@@ -366,7 +359,7 @@ p {
 
 .copywriting p {
   font-size: 14px;
-  font-family: "OpenSans";
+  font-family: OpenSans, sans-serif;
   line-height: 1.6em;
   margin-bottom: 16px;
 }
