@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@400;700&display=swap");
+@font-face {
+  font-family: OpenSans;
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url("../fonts/Neucha-Regular.ttf");
+}
 
 :root {
   --primary: #fe8a02;
@@ -10,10 +18,10 @@
   --light: #f5f4f0;
   --brown: #b09a81;
   --blue: #1085c5;
-  --titles-line-height: 1.2em;
-  --titles-font-family: "Neucha", cursive;
+  --titles-line-height: 120%;
+  --titles-font-family: "Neucha";
   --text-size: 16px;
-  --text-line-height: 1.6em;
+  --text-line-height: 160%;
   --text-font-family: "Open Sans", sans-serif;
 }
 
@@ -212,10 +220,10 @@ p {
 }
 
 .video {
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: absolute;
   top: 2px;
   left: 96px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .navigation {
