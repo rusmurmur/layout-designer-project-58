@@ -19,7 +19,7 @@
 
 body {
   margin: 0;
-  /* box-sizing: border-box; */
+  max-width: 1440px;
 }
 
 .container {
@@ -184,12 +184,19 @@ p {
 }
 
 .video-title {
+  position: relative;
+  top: 8px;
+
   padding-top: 10px;
   padding-bottom: 28px;
   margin-top: -10px;
 }
 
 .videos .text {
+  position: relative;
+  top: 3px;
+  left: -1px;
+
   margin-bottom: 30px;
   padding-left: 1px;
   color: #212529;
