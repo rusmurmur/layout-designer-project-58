@@ -192,7 +192,8 @@ p {
 
 .videos .text {
   margin-bottom: 30px;
-  padding-left: 1px;
+  /* padding-left: 1px; */
+  color: #212529;
 }
 
 .video-wrapper {
