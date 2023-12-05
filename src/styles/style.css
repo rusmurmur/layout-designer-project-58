@@ -85,6 +85,11 @@ p {
   margin-bottom: 0px;
 }
 
+.h-header {
+  position: relative;
+  top: 8px;
+}
+
 .premature-optimization {
   margin-top: 2px;
   padding-bottom: 22px;
