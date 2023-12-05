@@ -18,6 +18,7 @@
   --light: #f5f4f0;
   --brown: #b09a81;
   --blue: #1085c5;
+  --black: #000;
 }
 
 body {
@@ -206,7 +207,7 @@ p {
   position: absolute;
   top: 7px;
   left: 96px;
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  filter: drop-shadow(0 16px 32px rgba(var(--black) / 15%));
 }
 
 .navigation {
