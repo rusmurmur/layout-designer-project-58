@@ -209,7 +209,7 @@ p {
 
 .video {
   position: absolute;
-  top: 2px;
+  top: 4px;
   left: 96px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
